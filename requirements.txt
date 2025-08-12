@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+xlsxwriter
+openpyxl
+reportlab
+# PDF fallback (works even if reportlab can’t):
+fpdf2
