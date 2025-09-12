@@ -16,15 +16,15 @@ from typing import Optional, Tuple, Dict
 # =========================
 st.set_page_config(page_title="Pan Pepín Orders & Inventory (PAR)", layout="wide")
 st.title("🥖 Pan Pepín Orders & Inventory Dashboard")
-st.caption("Sun–Sat weekly totals • Order Tuesdays → Deliver Fridays @ 5:00 AM • PAR defaults to 9 days")
+st.caption("Sun–Sat weekly totals • Order Tuesdays → Deliver Fridays @ 5:00 AM • PAR defaults to 7 days")
 
 # =========================
 # Constants
 # =========================
 PACK_SIZES = {"Hamburger": 8, "Hot Dog Buns": 10}
 VALID_PRODUCTS = list(PACK_SIZES.keys())
-PAR_DAYS_DEFAULT = 9
-DEFAULT_HISTORY_WEEKS = 8
+PAR_DAYS_DEFAULT = 7
+DEFAULT_HISTORY_WEEKS = 26
 
 TRAY_SIZE_PACKS = 8
 HALF_TRAY_PACKS = TRAY_SIZE_PACKS // 2
